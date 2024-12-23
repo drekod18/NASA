@@ -1,0 +1,75 @@
+@startuml
+
+class User {
+    - userId : int
+    - username : string
+    - emailAddress : string
+    - userRole : enum
+    - passwordHash : string
+    - accountCreationDate : Date
+    - isVerified : boolean
+    - profilePictureUrl : string
+    - createdAt : DateTime
+    - updatedAt : DateTime
+}
+
+class SpaceWeatherData {
+    - timestamp : Date
+    - solarActivityLevel : int
+    - magneticFieldStrength : int
+    - observationLocation : string
+    - cosmicRadiation : float
+    - solarWindSpeed : int
+    - createdAt : DateTime
+    - updatedAt : DateTime
+}
+
+class ObservationConditions {
+    - cloudCoveragePercentage : int
+    - atmosphericSeeingQuality : int
+    - observationLocation : string
+    - observationTimestamp : Date
+    - temperature : float
+    - humidity : float
+    - createdAt : DateTime
+    - updatedAt : DateTime
+}
+
+class Notification {
+    - notificationTimestamp : Date
+    - notificationType : string
+    - notificationMessage : string
+    - priorityLevel : int
+    - createdAt : DateTime
+    - updatedAt : DateTime
+}
+
+class SpacePicture {
+    - imageUrl : string
+    - imageDescription : string
+    - captureTimestamp : Date
+    - photographer : string
+    - location : string
+    - createdAt : DateTime
+    - updatedAt : DateTime
+}
+
+class EducationalContent {
+    - contentId : int
+    - contentTitle : string
+    - contentType : string
+    - difficultyLevel : string
+    - estimatedReadingTime : int
+    - isRecommended : boolean
+    - createdAt : DateTime
+    - updatedAt : DateTime
+}
+
+User --> SpaceWeatherData
+User --> Notification
+User --> SpacePicture
+User --> EducationalContent
+
+SpaceWeatherData o-- ObservationConditions
+
+@enduml

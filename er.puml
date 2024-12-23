@@ -1,0 +1,94 @@
+@startuml
+
+entity User {
+    * userId : int <<PK>>
+    --
+    username : string
+    emailAddress : string
+    userRole : enum
+    passwordHash : string
+    accountCreationDate : Date
+    isVerified : boolean
+    profilePictureUrl : string
+    createdAt : DateTime
+    updatedAt : DateTime
+}
+
+entity SpaceWeatherData {
+    * spaceWeatherId : int <<PK>>
+    --
+    timestamp : Date
+    solarActivityLevel : int
+    magneticFieldStrength : int
+    observationLocation : string
+    cosmicRadiation : float
+    solarWindSpeed : int
+    createdAt : DateTime
+    updatedAt : DateTime
+    --
+    + userId : int <<FK>>
+}
+
+entity ObservationConditions {
+    * observationId : int <<PK>>
+    --
+    cloudCoveragePercentage : int
+    atmosphericSeeingQuality : int
+    observationLocation : string
+    observationTimestamp : Date
+    temperature : float
+    humidity : float
+    createdAt : DateTime
+    updatedAt : DateTime
+    --
+    + spaceWeatherId : int <<FK>>
+}
+
+entity Notification {
+    * notificationId : int <<PK>>
+    --
+    notificationTimestamp : Date
+    notificationType : string
+    notificationMessage : string
+    priorityLevel : int
+    createdAt : DateTime
+    updatedAt : DateTime
+    --
+    + userId : int <<FK>>
+}
+
+entity SpacePicture {
+    * pictureId : int <<PK>>
+    --
+    imageUrl : string
+    imageDescription : string
+    captureTimestamp : Date
+    photographer : string
+    location : string
+    createdAt : DateTime
+    updatedAt : DateTime
+    --
+    + userId : int <<FK>>
+}
+
+entity EducationalContent {
+    * contentId : int <<PK>>
+    --
+    contentTitle : string
+    contentType : string
+    difficultyLevel : string
+    estimatedReadingTime : int
+    isRecommended : boolean
+    createdAt : DateTime
+    updatedAt : DateTime
+    --
+    + userId : int <<FK>>
+}
+
+User ||--o{ SpaceWeatherData
+SpaceWeatherData ||--o{ ObservationConditions
+User ||--o{ Notification
+User ||--o{ SpacePicture
+User ||--o{ EducationalContent
+
+@enduml

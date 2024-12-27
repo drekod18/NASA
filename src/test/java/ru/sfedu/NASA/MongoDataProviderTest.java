@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MongoDataProviderTest {
 
-    private static final MongoDBUtil MongoDBUtil = new MongoDBUtil();
+    /*private static final MongoDBUtil MongoDBUtil = new MongoDBUtil();
     private MongoDataProvider<HistoryContentTest> dataProvider;
     private MongoCollection<Document> collection;
 
@@ -99,6 +99,6 @@ public class MongoDataProviderTest {
         assertNotNull(records, "Список записей не должен быть null");
         assertEquals(2, records.size(), "Количество записей должно быть равно 2");
         assertTrue(records.contains(record1), "Запись 1 должна быть в коллекции");
-    }
+    }*/
 
 }

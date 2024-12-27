@@ -1417,3 +1417,599 @@ java.lang.Exception: null
 2024-12-23 17:19:41 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
 2024-12-23 17:22:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
 2024-12-23 17:22:16 INFO  PostgresUtil:41 - Соединение с PostgreSQL закрыто.
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:47 - ./src/main/resources/environment.properties
+2024-12-27 13:42:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:60 - ./src/main/resources/environment.xml
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:81 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 13:42:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:42:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:42:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:42:15 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:42:17 ERROR MongoDBUtil:27 - Ошибка при подключении к MongoDB: Cannot invoke "String.startsWith(String)" because "connectionString" is null
+2024-12-27 13:42:17 DEBUG NasaClient:22 - Launching the application...
+2024-12-27 13:42:17 INFO  NasaClient:23 - Operating System: Windows 11 10.0
+2024-12-27 13:42:17 INFO  NasaClient:24 - JRE: 21.0.2
+2024-12-27 13:42:17 INFO  NasaClient:25 - Java Launched From: D:\IntelliJ IDEA\JDK
+2024-12-27 13:42:17 INFO  NasaClient:26 - Class Path: D:\ЮФУ\Архитектура информационных систем\NASA\target\test-classes;D:\ЮФУ\Архитектура информационных систем\NASA\target\classes;C:\Users\dreko\.m2\repository\com\opencsv\opencsv\5.7.1\opencsv-5.7.1.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\dreko\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dreko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dreko\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dreko\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\dreko\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dreko\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\Users\dreko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dreko\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\dreko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dreko\.m2\repository\org\postgresql\postgresql\42.7.2\postgresql-42.7.2.jar;C:\Users\dreko\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dreko\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;
+2024-12-27 13:42:17 INFO  NasaClient:27 - Library Path: D:\IntelliJ IDEA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Node js\;C:\ProgramData\chocolatey\bin;D:\Git\Git\cmd;C:\Users\dreko\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dreko\AppData\Local\Programs\Python\Python310\;C:\Users\dreko\AppData\Local\Microsoft\WindowsApps;;D:\PyCharm Community Edition 2022.2\bin;;D:\VS code\Microsoft VS Code\bin;C:\Users\dreko\AppData\Roaming\npm;.
+2024-12-27 13:42:17 INFO  NasaClient:28 - User Home Directory: C:\Users\dreko
+2024-12-27 13:42:17 INFO  NasaClient:29 - User Working Directory: D:\ЮФУ\Архитектура информационных систем\NASA
+2024-12-27 13:42:17 INFO  NasaClient:30 - Test INFO logging.
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:47 - ./src/main/resources/environment.properties
+2024-12-27 13:43:32 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:60 - ./src/main/resources/environment.xml
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:81 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 13:43:32 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:43:32 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:43:32 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:43:32 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:43:34 ERROR MongoDBUtil:27 - Ошибка при подключении к MongoDB: Cannot invoke "String.startsWith(String)" because "connectionString" is null
+2024-12-27 13:43:34 DEBUG NasaClient:22 - Launching the application...
+2024-12-27 13:43:34 INFO  NasaClient:23 - Operating System: Windows 11 10.0
+2024-12-27 13:43:34 INFO  NasaClient:24 - JRE: 21.0.2
+2024-12-27 13:43:34 INFO  NasaClient:25 - Java Launched From: D:\IntelliJ IDEA\JDK
+2024-12-27 13:43:34 INFO  NasaClient:26 - Class Path: D:\ЮФУ\Архитектура информационных систем\NASA\target\test-classes;D:\ЮФУ\Архитектура информационных систем\NASA\target\classes;C:\Users\dreko\.m2\repository\com\opencsv\opencsv\5.7.1\opencsv-5.7.1.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\dreko\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dreko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dreko\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dreko\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\dreko\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dreko\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\Users\dreko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dreko\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\dreko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dreko\.m2\repository\org\postgresql\postgresql\42.7.2\postgresql-42.7.2.jar;C:\Users\dreko\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dreko\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;
+2024-12-27 13:43:34 INFO  NasaClient:27 - Library Path: D:\IntelliJ IDEA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Node js\;C:\ProgramData\chocolatey\bin;D:\Git\Git\cmd;C:\Users\dreko\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dreko\AppData\Local\Programs\Python\Python310\;C:\Users\dreko\AppData\Local\Microsoft\WindowsApps;;D:\PyCharm Community Edition 2022.2\bin;;D:\VS code\Microsoft VS Code\bin;C:\Users\dreko\AppData\Roaming\npm;.
+2024-12-27 13:43:34 INFO  NasaClient:28 - User Home Directory: C:\Users\dreko
+2024-12-27 13:43:34 INFO  NasaClient:29 - User Working Directory: D:\ЮФУ\Архитектура информационных систем\NASA
+2024-12-27 13:43:34 INFO  NasaClient:30 - Test INFO logging.
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:47 - ./src/main/resources/environment.properties
+2024-12-27 13:50:50 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:60 - ./src/main/resources/environment.xml
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:81 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 13:50:50 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:50:50 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:50:50 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:50:50 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:47 - ./src/main/resources/environment.properties
+2024-12-27 13:51:26 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:60 - ./src/main/resources/environment.xml
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:81 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 13:51:26 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:51:26 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:51:26 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:51:26 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:52:26 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:52:26 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:52:26 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:52:26 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 13:56:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:84 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 13:56:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:56:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:56:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:56:15 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 13:56:40 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:84 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 13:56:40 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:56:40 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:56:40 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:56:40 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 13:58:55 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:84 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 13:58:55 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:58:55 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:58:55 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:58:55 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:59:13 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 13:59:13 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 13:59:13 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 13:59:13 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:00:37 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 14:00:37 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:00:37 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:00:37 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:47 - ./src/main/resources/environment.properties
+2024-12-27 14:07:00 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:60 - ./src/main/resources/environment.xml
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:81 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 14:07:00 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 14:07:00 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:07:00 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:07:00 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 14:16:17 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:81 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 14:16:17 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 14:16:17 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:16:17 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:16:18 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 14:16:18 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 14:16:18 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:16:18 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:16:18 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:18:41 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 14:18:41 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:18:41 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 14:18:41 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 14:18:41 INFO  ConfigurationUtilTest:81 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 14:18:42 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 14:18:42 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:18:42 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:18:42 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 14:19:53 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:84 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 14:19:53 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 14:19:53 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:19:53 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:19:54 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 14:19:54 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 14:19:54 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:19:54 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:19:54 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 14:20:31 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:84 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 14:20:31 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 14:20:31 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 14:20:31 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 14:20:31 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 15:47:47 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 15:48:22 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 15:48:23 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:84 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 15:48:23 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 15:48:23 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 15:48:23 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 15:48:23 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 15:48:27 ERROR MongoDBUtil:27 - Ошибка при подключении к MongoDB: Cannot invoke "String.startsWith(String)" because "connectionString" is null
+2024-12-27 15:48:27 DEBUG NasaClient:22 - Launching the application...
+2024-12-27 15:48:27 INFO  NasaClient:23 - Operating System: Windows 11 10.0
+2024-12-27 15:48:27 INFO  NasaClient:24 - JRE: 21.0.2
+2024-12-27 15:48:27 INFO  NasaClient:25 - Java Launched From: D:\IntelliJ IDEA\JDK
+2024-12-27 15:48:27 INFO  NasaClient:26 - Class Path: D:\ЮФУ\Архитектура информационных систем\NASA\target\test-classes;D:\ЮФУ\Архитектура информационных систем\NASA\target\classes;C:\Users\dreko\.m2\repository\com\opencsv\opencsv\5.7.1\opencsv-5.7.1.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\dreko\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dreko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dreko\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dreko\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\dreko\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dreko\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\Users\dreko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dreko\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\dreko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dreko\.m2\repository\org\postgresql\postgresql\42.7.2\postgresql-42.7.2.jar;C:\Users\dreko\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dreko\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;
+2024-12-27 15:48:27 INFO  NasaClient:27 - Library Path: D:\IntelliJ IDEA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Node js\;C:\ProgramData\chocolatey\bin;D:\Git\Git\cmd;C:\Users\dreko\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dreko\AppData\Local\Programs\Python\Python310\;C:\Users\dreko\AppData\Local\Microsoft\WindowsApps;;D:\PyCharm Community Edition 2022.2\bin;;D:\VS code\Microsoft VS Code\bin;C:\Users\dreko\AppData\Roaming\npm;.
+2024-12-27 15:48:27 INFO  NasaClient:28 - User Home Directory: C:\Users\dreko
+2024-12-27 15:48:27 INFO  NasaClient:29 - User Working Directory: D:\ЮФУ\Архитектура информационных систем\NASA
+2024-12-27 15:48:27 INFO  NasaClient:30 - Test INFO logging.
+2024-12-27 15:48:48 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 15:51:17 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:47 - null
+2024-12-27 16:08:54 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:53 - [Земля, Сатурн, Марс, Венера]
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:60 - null
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:84 - {1=Январь, 2=Февраль, 3=Март, 4=Апрель, 5=Май, 6=Июнь, 7=Июль, 8=Август, 9=Сентябрь, 10=Октябрь, 11=Ноябрь, 12=Декабрь}
+2024-12-27 16:08:54 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 16:08:54 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 16:08:54 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 16:08:54 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 16:08:58 ERROR MongoDBUtil:27 - Ошибка при подключении к MongoDB: Cannot invoke "String.startsWith(String)" because "connectionString" is null
+2024-12-27 16:08:58 DEBUG NasaClient:22 - Launching the application...
+2024-12-27 16:08:58 INFO  NasaClient:23 - Operating System: Windows 11 10.0
+2024-12-27 16:08:58 INFO  NasaClient:24 - JRE: 21.0.2
+2024-12-27 16:08:58 INFO  NasaClient:25 - Java Launched From: D:\IntelliJ IDEA\JDK
+2024-12-27 16:08:58 INFO  NasaClient:26 - Class Path: D:\ЮФУ\Архитектура информационных систем\NASA\target\test-classes;D:\ЮФУ\Архитектура информационных систем\NASA\target\classes;C:\Users\dreko\.m2\repository\com\opencsv\opencsv\5.7.1\opencsv-5.7.1.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\dreko\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dreko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dreko\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dreko\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\dreko\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dreko\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\Users\dreko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dreko\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\dreko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dreko\.m2\repository\org\postgresql\postgresql\42.7.2\postgresql-42.7.2.jar;C:\Users\dreko\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dreko\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;
+2024-12-27 16:08:58 INFO  NasaClient:27 - Library Path: D:\IntelliJ IDEA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Node js\;C:\ProgramData\chocolatey\bin;D:\Git\Git\cmd;C:\Users\dreko\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dreko\AppData\Local\Programs\Python\Python310\;C:\Users\dreko\AppData\Local\Microsoft\WindowsApps;;D:\PyCharm Community Edition 2022.2\bin;;D:\VS code\Microsoft VS Code\bin;C:\Users\dreko\AppData\Roaming\npm;.
+2024-12-27 16:08:58 INFO  NasaClient:28 - User Home Directory: C:\Users\dreko
+2024-12-27 16:08:58 INFO  NasaClient:29 - User Working Directory: D:\ЮФУ\Архитектура информационных систем\NASA
+2024-12-27 16:08:58 INFO  NasaClient:30 - Test INFO logging.
+2024-12-27 16:10:32 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.properties
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:35 - db.url: jdbc:postgresql://localhost:5432/NASA
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:36 - db.user: postgres
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:37 - db.password: Qwerty!23
+2024-12-27 16:10:32 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: yml
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.yml
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 16:10:32 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: xml
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:34 - Config File: ./src/main/resources/environment.xml
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:35 - db.url: localhost:5432/mydatabase
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:36 - db.user: admin
+2024-12-27 16:10:32 INFO  ConfigurationUtilTest:37 - db.password: password
+2024-12-27 16:11:27 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 16:11:27 DEBUG connection:56 - Connection pool created for localhost:27017 using options maxIdleTimeMS=0, minPoolSize=0, maxPoolSize=100, maxConnecting=2, waitQueueTimeoutMS=120000
+2024-12-27 16:11:27 DEBUG cluster:56 - Updating cluster description to  {type=UNKNOWN, servers=[{address=localhost:27017, type=UNKNOWN, state=CONNECTING}]
+2024-12-27 16:11:27 INFO  client:71 - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.10.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.2+13-58"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@1c5d3a37, com.mongodb.Jep395RecordCodecProvider@7e3d2ebd, com.mongodb.KotlinCodecProvider@2b43f314]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-12-27 16:11:27 INFO  cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=25, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=71319100}
+2024-12-27 16:11:27 DEBUG connection:56 - Connection pool ready for localhost:27017
+2024-12-27 16:11:27 DEBUG cluster:56 - Updating cluster description to  {type=STANDALONE, servers=[{address=localhost:27017, type=STANDALONE, roundTripTime=71.3 ms, state=CONNECTED}]
+2024-12-27 16:11:27 DEBUG cluster:56 - Checking status of localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection created: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Connection ready: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 5 and the operation ID is 3. Command: {"update": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "updates": [{"q": {"_id": "10"}, "u": {"actor": "Natalya", "action": "create", "content": "Test content", "_id": "10"}, "upsert": true}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" succeeded in 93.8735 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 5 and the operation ID is 3. Command reply: {"n": 1, "upserted": [{"index": 0, "_id": "10"}], "nModified": 0, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 6 and the operation ID is 5. Command: {"find": "historyContent", "filter": {}, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}}
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" succeeded in 25.8179 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 6 and the operation ID is 5. Command reply: {"cursor": {"firstBatch": [{"_id": "10", "actor": "Natalya", "action": "create", "content": "Test content"}], "id": 0, "ns": "testdb.historyContent"}, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG operation:56 - Received batch of 1 documents with cursorId 0 from server localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 7 and the operation ID is 6. Command: {"delete": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" succeeded in 11.3106 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 7 and the operation ID is 6. Command reply: {"n": 1, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 8 and the operation ID is 7. Command: {"update": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "updates": [{"q": {"_id": "10"}, "u": {"actor": "Natalya", "action": "pass the lab", "content": "testing", "_id": "10"}, "upsert": true}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" succeeded in 5.8184 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 8 and the operation ID is 7. Command reply: {"n": 1, "upserted": [{"index": 0, "_id": "10"}], "nModified": 0, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 9 and the operation ID is 8. Command: {"update": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "updates": [{"q": {"_id": "10"}, "u": {"actor": "Natalya", "action": "update", "content": "Updated content", "_id": "10"}, "upsert": true}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" succeeded in 8.8814 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 9 and the operation ID is 8. Command reply: {"n": 1, "nModified": 1, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 10 and the operation ID is 9. Command: {"find": "historyContent", "filter": {}, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}}
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" succeeded in 4.3299 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 10 and the operation ID is 9. Command reply: {"cursor": {"firstBatch": [{"_id": "10", "actor": "Natalya", "action": "update", "content": "Updated content"}], "id": 0, "ns": "testdb.historyContent"}, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG operation:56 - Received batch of 1 documents with cursorId 0 from server localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 11 and the operation ID is 10. Command: {"delete": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" succeeded in 4.3433 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 11 and the operation ID is 10. Command reply: {"n": 1, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 12 and the operation ID is 11. Command: {"update": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "updates": [{"q": {"_id": "10"}, "u": {"actor": "Natalya", "action": "pass the lab", "content": "testing", "_id": "10"}, "upsert": true}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" succeeded in 3.6662 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 12 and the operation ID is 11. Command reply: {"n": 1, "upserted": [{"index": 0, "_id": "10"}], "nModified": 0, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 13 and the operation ID is 12. Command: {"delete": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "deletes": [{"q": {"_id": "1"}, "limit": 1}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" succeeded in 12.6316 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 13 and the operation ID is 12. Command reply: {"n": 0, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 14 and the operation ID is 13. Command: {"find": "historyContent", "filter": {"_id": "1"}, "limit": 1, "singleBatch": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}}
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" succeeded in 6.373 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 14 and the operation ID is 13. Command reply: {"cursor": {"firstBatch": [], "id": 0, "ns": "testdb.historyContent"}, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG operation:56 - Received batch of 0 documents with cursorId 0 from server localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 ERROR MongoDataProvider:67 - Ошибка при получении записи с ID: 1
+java.lang.Exception: null
+	at providers.MongoDataProvider.getRecordById(MongoDataProvider.java:65) ~[classes/:?]
+	at ru.sfedu.NASA.MongoDataProviderTest.lambda$testDeleteRecord$0(MongoDataProviderTest.java:67) ~[test-classes/:?]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53) ~[junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:39) ~[junit-jupiter-api-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3131) ~[junit-jupiter-api-5.10.2.jar:5.10.2]
+	at ru.sfedu.NASA.MongoDataProviderTest.testDeleteRecord(MongoDataProviderTest.java:67) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728) ~[junit-platform-commons-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69) ~[junit-jupiter-engine-5.10.2.jar:5.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47) ~[junit-platform-launcher-1.10.2.jar:1.10.2]
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122) ~[surefire-junit-platform-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385) ~[surefire-booter-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162) ~[surefire-booter-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507) ~[surefire-booter-3.1.2.jar:3.1.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495) ~[surefire-booter-3.1.2.jar:3.1.2]
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 15 and the operation ID is 14. Command: {"delete": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" succeeded in 3.7359 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 15 and the operation ID is 14. Command reply: {"n": 1, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 16 and the operation ID is 15. Command: {"update": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "updates": [{"q": {"_id": "10"}, "u": {"actor": "Natalya", "action": "pass the lab", "content": "testing", "_id": "10"}, "upsert": true}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "update" succeeded in 3.5648 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 16 and the operation ID is 15. Command reply: {"n": 1, "upserted": [{"index": 0, "_id": "10"}], "nModified": 0, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 17 and the operation ID is 16. Command: {"find": "historyContent", "filter": {"_id": "10"}, "limit": 1, "singleBatch": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}}
+2024-12-27 16:11:28 DEBUG command:56 - Command "find" succeeded in 2.6541 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 17 and the operation ID is 16. Command reply: {"cursor": {"firstBatch": [{"_id": "10", "actor": "Natalya", "action": "pass the lab", "content": "testing"}], "id": 0, "ns": "testdb.historyContent"}, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG operation:56 - Received batch of 1 documents with cursorId 0 from server localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG connection:56 - Checkout started for connection to localhost:27017
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked out: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG operation:56 - retryWrites set to true but the server is a standalone server.
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" started on database testdb using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 18 and the operation ID is 17. Command: {"delete": "historyContent", "ordered": true, "$db": "testdb", "lsid": {"id": {"$binary": {"base64": "qNPuGl1SRwC1vJPN7wQmrQ==", "subType": "04"}}}, "deletes": [{"q": {}, "limit": 0}]}
+2024-12-27 16:11:28 DEBUG command:56 - Command "delete" succeeded in 4.0045 ms using a connection with driver-generated ID 3 and server-generated ID 3 to localhost:27017. The request ID is 18 and the operation ID is 17. Command reply: {"n": 1, "ok": 1.0}
+2024-12-27 16:11:28 DEBUG connection:56 - Connection checked in: address=localhost:27017, driver-generated ID=3
+2024-12-27 16:11:28 DEBUG NasaClient:22 - Launching the application...
+2024-12-27 16:11:28 INFO  NasaClient:23 - Operating System: Windows 11 10.0
+2024-12-27 16:11:28 INFO  NasaClient:24 - JRE: 21.0.2
+2024-12-27 16:11:28 INFO  NasaClient:25 - Java Launched From: D:\IntelliJ IDEA\JDK
+2024-12-27 16:11:28 INFO  NasaClient:26 - Class Path: D:\ЮФУ\Архитектура информационных систем\NASA\target\test-classes;D:\ЮФУ\Архитектура информационных систем\NASA\target\classes;C:\Users\dreko\.m2\repository\com\opencsv\opencsv\5.7.1\opencsv-5.7.1.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\dreko\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dreko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dreko\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dreko\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\dreko\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dreko\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\Users\dreko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dreko\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\dreko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dreko\.m2\repository\org\postgresql\postgresql\42.7.2\postgresql-42.7.2.jar;C:\Users\dreko\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dreko\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;
+2024-12-27 16:11:28 INFO  NasaClient:27 - Library Path: D:\IntelliJ IDEA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Node js\;C:\ProgramData\chocolatey\bin;D:\Git\Git\cmd;C:\Users\dreko\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dreko\AppData\Local\Programs\Python\Python310\;C:\Users\dreko\AppData\Local\Microsoft\WindowsApps;;D:\PyCharm Community Edition 2022.2\bin;;D:\VS code\Microsoft VS Code\bin;C:\Users\dreko\AppData\Roaming\npm;.
+2024-12-27 16:11:28 INFO  NasaClient:28 - User Home Directory: C:\Users\dreko
+2024-12-27 16:11:28 INFO  NasaClient:29 - User Working Directory: D:\ЮФУ\Архитектура информационных систем\NASA
+2024-12-27 16:11:28 INFO  NasaClient:30 - Test INFO logging.
+2024-12-27 16:11:29 INFO  PostgresUtil:41 - Соединение с PostgreSQL закрыто.
+2024-12-27 16:12:15 DEBUG NasaClient:22 - Launching the application...
+2024-12-27 16:12:15 INFO  NasaClient:23 - Operating System: Windows 11 10.0
+2024-12-27 16:12:15 INFO  NasaClient:24 - JRE: 21.0.2
+2024-12-27 16:12:15 INFO  NasaClient:25 - Java Launched From: D:\IntelliJ IDEA\JDK
+2024-12-27 16:12:15 INFO  NasaClient:26 - Class Path: D:\ЮФУ\Архитектура информационных систем\NASA\target\test-classes;D:\ЮФУ\Архитектура информационных систем\NASA\target\classes;C:\Users\dreko\.m2\repository\com\opencsv\opencsv\5.7.1\opencsv-5.7.1.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\dreko\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dreko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dreko\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dreko\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\dreko\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dreko\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\Users\dreko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dreko\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\dreko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dreko\.m2\repository\org\postgresql\postgresql\42.7.2\postgresql-42.7.2.jar;C:\Users\dreko\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dreko\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;
+2024-12-27 16:12:15 INFO  NasaClient:27 - Library Path: D:\IntelliJ IDEA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Node js\;C:\ProgramData\chocolatey\bin;D:\Git\Git\cmd;C:\Users\dreko\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dreko\AppData\Local\Programs\Python\Python310\;C:\Users\dreko\AppData\Local\Microsoft\WindowsApps;;D:\PyCharm Community Edition 2022.2\bin;;D:\VS code\Microsoft VS Code\bin;C:\Users\dreko\AppData\Roaming\npm;.
+2024-12-27 16:12:15 INFO  NasaClient:28 - User Home Directory: C:\Users\dreko
+2024-12-27 16:12:15 INFO  NasaClient:29 - User Working Directory: D:\ЮФУ\Архитектура информационных систем\NASA
+2024-12-27 16:12:15 INFO  NasaClient:30 - Test INFO logging.
+2024-12-27 16:12:15 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 16:12:15 INFO  PostgresUtil:41 - Соединение с PostgreSQL закрыто.
+2024-12-27 16:32:34 DEBUG NasaClient:22 - Launching the application...
+2024-12-27 16:32:34 INFO  NasaClient:23 - Operating System: Windows 11 10.0
+2024-12-27 16:32:34 INFO  NasaClient:24 - JRE: 21.0.2
+2024-12-27 16:32:34 INFO  NasaClient:25 - Java Launched From: D:\IntelliJ IDEA\JDK
+2024-12-27 16:32:34 INFO  NasaClient:26 - Class Path: D:\ЮФУ\Архитектура информационных систем\NASA\target\test-classes;D:\ЮФУ\Архитектура информационных систем\NASA\target\classes;C:\Users\dreko\.m2\repository\com\opencsv\opencsv\5.7.1\opencsv-5.7.1.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\dreko\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\dreko\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\dreko\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\dreko\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\dreko\.m2\repository\org\projectlombok\lombok\1.18.36\lombok-1.18.36.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.18.2\jackson-datatype-jsr310-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.18.2\jackson-dataformat-xml-2.18.2.jar;C:\Users\dreko\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.2\stax2-api-4.2.2.jar;C:\Users\dreko\.m2\repository\com\fasterxml\woodstox\woodstox-core\7.0.0\woodstox-core-7.0.0.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dreko\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dreko\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.19.0\log4j-slf4j-impl-2.19.0.jar;C:\Users\dreko\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\dreko\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\dreko\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-sync\4.10.2\mongodb-driver-sync-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson\4.10.2\bson-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\mongodb-driver-core\4.10.2\mongodb-driver-core-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mongodb\bson-record-codec\4.10.2\bson-record-codec-4.10.2.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-junit-jupiter\5.6.0\mockito-junit-jupiter-5.6.0.jar;C:\Users\dreko\.m2\repository\org\mockito\mockito-core\5.6.0\mockito-core-5.6.0.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy\1.14.8\byte-buddy-1.14.8.jar;C:\Users\dreko\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.8\byte-buddy-agent-1.14.8.jar;C:\Users\dreko\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\dreko\.m2\repository\org\postgresql\postgresql\42.7.2\postgresql-42.7.2.jar;C:\Users\dreko\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\dreko\.m2\repository\info\picocli\picocli\4.7.6\picocli-4.7.6.jar;
+2024-12-27 16:32:34 INFO  NasaClient:27 - Library Path: D:\IntelliJ IDEA\JDK\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Node js\;C:\ProgramData\chocolatey\bin;D:\Git\Git\cmd;C:\Users\dreko\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\dreko\AppData\Local\Programs\Python\Python310\;C:\Users\dreko\AppData\Local\Microsoft\WindowsApps;;D:\PyCharm Community Edition 2022.2\bin;;D:\VS code\Microsoft VS Code\bin;C:\Users\dreko\AppData\Roaming\npm;.
+2024-12-27 16:32:34 INFO  NasaClient:28 - User Home Directory: C:\Users\dreko
+2024-12-27 16:32:34 INFO  NasaClient:29 - User Working Directory: D:\ЮФУ\Архитектура информационных систем\NASA
+2024-12-27 16:32:34 INFO  NasaClient:30 - Test INFO logging.
+2024-12-27 16:32:34 DEBUG ConfigurationUtil:80 - Обнаруженное расширение файла: properties
+2024-12-27 16:32:35 INFO  PostgresUtil:41 - Соединение с PostgreSQL закрыто.

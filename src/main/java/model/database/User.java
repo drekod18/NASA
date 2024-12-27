@@ -13,7 +13,7 @@ public class User {
     private int userId;
     private String username;
     private String emailAddress;
-    private String userRole;  // Можно использовать Enum
+    private String userRole;
     private String passwordHash;
     private LocalDateTime accountCreationDate;
     private boolean isVerified;

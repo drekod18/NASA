@@ -17,11 +17,11 @@ import java.sql.SQLException;
         version = "1.0",
         description = "NASA"
 )
-public class NasaClient implements Runnable {
+public class AppCli implements Runnable {
 
     private JdbcDataProvider dataProvider;
 
-    public NasaClient() {git
+    public AppCli() {
         try {
             this.dataProvider = new JdbcDataProvider(PostgresUtil.getConnection());
         } catch (SQLException e) {
